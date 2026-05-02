@@ -33,7 +33,7 @@ After installation, the SDK will be available in your Homebrew prefix (typically
 
 ```cmake
 find_package(SmartSpectra REQUIRED)
-target_link_libraries(your_target SmartSpectra::SmartSpectraLab)
+target_link_libraries(your_target SmartSpectra::SDK)
 ```
 
 ### Using with pkg-config
