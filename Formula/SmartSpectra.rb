@@ -3,7 +3,7 @@
 class Smartspectra < Formula
   desc "SmartSpectra C++ SDK"
   homepage "https://physiology.presagetech.com"
-  url "https://github.com/Presage-Security/homebrew-smartspectra/releases/download/untagged-ffeb79960a7bb0756fbe/smartspectra-sdk-3.0.0-rc.14-macos-arm64.tar.gz"
+  url "https://github.com/Presage-Security/homebrew-smartspectra/releases/download/v3.0.0-rc.14/smartspectra-sdk-3.0.0-rc.14-macos-arm64.tar.gz"
   sha256 "205858fe4f1ce2f48ce6a552c9c49a7b0dea6c81738561949e2de0ff65b311d4"
   version "3.0.0-rc.14"
   license "LicenseRef-Proprietary"
