@@ -3,9 +3,9 @@
 class SmartspectraRc < Formula
   desc "SmartSpectra C++ SDK release candidate"
   homepage "https://physiology.presagetech.com"
-  url "https://github.com/Presage-Security/homebrew-smartspectra/releases/download/smartspectra-v3.2.0-rc.9/smartspectra-sdk-3.2.0-rc.9-macos-arm64.tar.gz"
-  sha256 "85b14398194848fe6afc60e88a44768f318e0d89da1b565f0be0fbdd16ea495e"
-  version "3.2.0-rc.9"
+  url "https://github.com/Presage-Security/homebrew-smartspectra/releases/download/smartspectra-v3.3.0-rc.1/smartspectra-sdk-3.3.0-rc.1-macos-arm64.tar.gz"
+  sha256 "d497ae4a7db42238b49cd13119c55761060fe13bf1704ffeb4d13bcb228902bc"
+  version "3.3.0-rc.1"
   license "LicenseRef-Proprietary"
   conflicts_with "smartspectra", because: "both install SmartSpectra headers, libraries, and CMake package files"
 
