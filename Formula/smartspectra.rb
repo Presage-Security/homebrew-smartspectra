@@ -3,16 +3,13 @@
 class Smartspectra < Formula
   desc "SmartSpectra C++ SDK"
   homepage "https://physiology.presagetech.com"
-  url "https://github.com/Presage-Security/homebrew-smartspectra/releases/download/smartspectra-v3.2.1/smartspectra-sdk-3.2.1-macos-arm64.tar.gz"
-  sha256 "ab42a9088d462c39f0443970de40cc46671c148af95b467c96625564751686f1"
-  version "3.2.1"
+  url "https://github.com/Presage-Security/homebrew-smartspectra/releases/download/smartspectra-v3.3.0/smartspectra-sdk-3.3.0-macos-arm64.tar.gz"
+  sha256 "9f153786f6276135e83a537b76b06388c84a52bebbd628370365547b9c2a2fcc"
+  version "3.3.0"
   license "LicenseRef-Proprietary"
   conflicts_with "smartspectra-rc", because: "both install SmartSpectra headers, libraries, and CMake package files"
 
   depends_on macos: :sonoma
-  depends_on "opencv"
-  # MoltenVK (Vulkan inference backend) is statically linked into
-  # libsmartspectra.dylib, so vulkan-loader / molten-vk are NOT runtime deps.
   depends_on "cmake" => :build
 
   livecheck do
